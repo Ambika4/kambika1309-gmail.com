@@ -8,7 +8,7 @@ const questionSchema= new mongoose.Schema({
      },
    
     //include the id of the array of the all options in this question schema itself
-    option:[
+    options:[
         {
             type:mongoose.Schema.Types.ObjectId,
             ref:'Option'

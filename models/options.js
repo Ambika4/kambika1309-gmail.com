@@ -10,6 +10,9 @@ const optionSchema= new mongoose.Schema({
     question:{
         type:mongoose.Schema.Types.ObjectId,
         ref:'Question'
+    },
+    votes:{
+       type:Number
     }
     })
 //the is a collection i.e is a model
